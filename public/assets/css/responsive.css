@@ -1,0 +1,464 @@
+/*medium Device*/ 
+@media(min-width:992px) and (max-width:1200px){
+	/*==================================
+		Menu-area 
+	 =================================*/
+	.cx-menu nav ul.menu li.menu-list a.menu-item {
+	    padding:20px;
+	    font-size: 16px;
+	}
+	/*==================================
+		Slider-area 
+	 =================================*/
+	.slider-iteam .btn-area {
+	    margin-top: 40px;
+	}
+	/*==================================
+		portfolio-area 
+	 =================================*/
+	.overflow-info .icon a img {
+	    width: 24px;
+	}
+	.overflow-info .proejct-name h3 {
+	    font-size: 14px;
+	}
+	.overflow-info .icon {
+	    height: 50px;
+	    width: 50px;
+	    line-height: 50px;
+	}
+}
+/*medium small Device*/
+@media(min-width:768px) and (max-width:991px){
+	:root {
+	  --font-size: 14px;
+	  --padding: 25px;
+	}
+	/*==================================
+		Menu-area 
+	 =================================*/
+	.cx-menu nav ul.menu li.menu-list a.menu-item {
+	    padding: 23px 13px;
+	    font-size: 15px;
+	}
+	/*==================================
+		Slider-area 
+	 =================================*/
+	 .slider-iteam .btn-area {
+	    margin-top: 40px;
+	}
+	/*==================================
+		service-area 
+	 =================================*/
+	.services-info p{
+		font-size: var(--font-size)
+	};
+	.services-content {
+		padding: var(--padding);
+	}
+	/*==================================
+		portfolio-area 
+	 =================================*/
+	.overflow-info .icon a img {
+	    width: 24px;
+	}
+	.overflow-info .proejct-name h3 {
+	    font-size: 14px;
+	}
+	.overflow-info .icon {
+	    height: 45px;
+	    width: 45px;
+	    line-height: 45px;
+	}
+	.portfolio-iteam:hover .overflow-info .icon {
+	    bottom: 22%;
+	}
+	/*==================================
+		project area
+	  =================================*/
+	.single-star {
+	    padding: 37px 15px 40px;
+	}
+	h2.counter {
+	    font-size: 20px;
+	}
+	h3.title {
+	    margin-top: 5px;
+	    font-size: 10px;
+	}
+	/*==================================
+		testimonial area
+	  =================================*/
+	.identfify-area .user-name h2 {
+	    font-size: 16px;
+	}
+	.identfify-area .title-name p, .review-info p {
+	    font-size: 14px;
+	}
+	/*==================================
+		contact area
+	  =================================*/
+	section.contact-us:after {
+	    width: 56%;
+	}
+	section.contact-us:before {
+	    width: 44%;
+	}
+}
+/*Small Device*/
+@media(min-width:575px) and (max-width:767px){
+	:root {
+	  --font-size: 14px;
+	  --padding: 25px;
+	}
+	/*==================================
+		Slider-area 
+	 =================================*/
+	.slider-iteam .btn-area {
+	    margin-top: 2px;
+	}
+	.slider-iteam figcaption.figcation-content {
+	    top: 50%;
+	    transform: translate(-50%, -35%);
+	}
+	.slider-iteam .medium-text {
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	}
+	.slider-iteam .btn-area a {
+	    padding: 9px 22px;
+	    font-size: 11px;
+	    display: block;
+	    margin-top: 5px;
+	}
+	.slider-iteam h1.title {
+	    font-size: 12px;
+	    padding: 6px 0px;
+	}
+	.slider-iteam p.info {
+	    font-size: 12px;
+	}
+	/*==================================
+		service-area 
+	 =================================*/
+	.services-info p{
+		font-size: var(--font-size)
+	};
+	.services-content {
+		padding: var(--padding);
+	}
+	/*==================================
+		portfolio-area 
+	 =================================*/
+	.overflow-info .icon a img {
+	    width: 24px;
+	}
+	.overflow-info .proejct-name h3 {
+	    font-size: 14px;
+	}
+	.overflow-info .icon {
+	    height: 45px;
+	    width: 45px;
+	    line-height: 45px;
+	}
+	.portfolio-iteam:hover .overflow-info .icon {
+	    bottom: 22%;
+	}
+	/*===============================
+		project area
+	 ================================*/
+	 section.proejects-area {
+	    padding: 70px 0px 0px;
+	}
+	.single-star {
+	    margin-bottom: 50px;
+	}
+	/*==================================
+		testimonial area
+	 =================================*/
+	.identfify-area .user-name h2 {
+	    font-size: 13px;
+	}
+	.identfify-area .title-name p, .review-info p {
+	    font-size: 13px;
+	}
+    .single-star  span i {
+	    font-size: 13px;
+	}
+	.identfify-area .user-img img {
+	    width: 70px;
+	    height: 70px;
+	}
+	/*==================================
+		contact-us
+	=================================*/
+	.contact-us .row {
+	    flex-wrap: wrap-reverse;
+	}
+	section.contact-us:before {
+	    height: 38%;
+	    width: 100%;
+   }
+   section.contact-us:after {
+	    height:cale(100vh-38vh);
+	    width:100%;
+	}
+   .contact-form {
+    	margin-top: 50px;
+   }
+   .contact-info {
+	    align-items: center;
+	}
+	/*===================================  
+		Mobile menu
+	 ==================================== */
+	.ace-responsive-menu {
+       background: #000;
+   }
+    .cx-menu nav ul.menu {
+	    flex-direction: column;
+	}
+	.logo {
+	    width: 150px !important;
+	    margin: auto;
+	    position: absolute;
+	    z-index: 1;
+	    top:0px;
+	    transform: translate(0px -47%);
+	    left:0px;
+	    bottom: 0;
+	} 
+    .menu-toggle ~ .ace-responsive-menu > li:first-child {
+	    border-top: 1px solid #fff;
+	}
+}
+
+/*Xtra Small Device*/
+@media(min-width:480px) and (max-width:575px){
+	:root {
+	  --font-size: 14px;
+	  --padding: 25px;
+	}
+	/*==================================
+		Slider-area 
+	 =================================*/
+	.slider-iteam .btn-area {
+	    margin-top: 2px;
+	}
+	.slider-iteam figcaption.figcation-content {
+	    top: 50%;
+	    transform: translate(-50%, -35%);
+	}
+	.slider-iteam .medium-text {
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	}
+	.slider-iteam .btn-area a.btn-read {
+	    display: none;
+	    visibility: hidden;
+	}
+	.slider-iteam .btn-area a {
+	    padding: 8px 20px;
+	    font-size: 10px;
+	    display: block;
+	    margin-top: 5px;
+	}
+	.slider-iteam h1.title {
+	    font-size: 10px;
+	    padding: 6px 0px;
+	}
+	.slider-iteam p.info {
+	    font-size: 11px;
+	}
+	/*==================================
+		service-area 
+	 =================================*/
+	.services-info p{
+		font-size: var(--font-size)
+	};
+	.services-content {
+		padding: var(--padding);
+	}
+	/*===============================
+		project area
+	 ================================*/
+	 section.proejects-area {
+	    padding: 70px 0px 0px;
+	}
+	.single-star {
+	    margin-bottom: 50px;
+	}
+	/*==================================
+		testimonial area
+	 =================================*/
+	.identfify-area .user-name h2 {
+	    font-size: 13px;
+	}
+	.identfify-area .title-name p, .review-info p {
+	    font-size: 13px;
+	}
+    .single-star  span i {
+	    font-size: 13px;
+	}
+	.identfify-area .user-img img {
+	    width: 70px;
+	    height: 70px;
+	}
+	/*==================================
+		contact-us
+	=================================*/
+	.contact-us .row {
+	    flex-wrap: wrap-reverse;
+	}
+	section.contact-us:before {
+	     height: 35%;
+	    width: 100%;
+   }
+   section.contact-us:after {
+	    height:cale(100vh-35vh);
+	    width:100%;
+	}
+   .contact-form {
+    	margin-top: 50px;
+   }
+   .contact-info {
+	    align-items: center;
+	}
+	/*===================================  
+		Mobile menu
+	 ==================================== */
+	.ace-responsive-menu {
+       background: #000;
+   }
+    .cx-menu nav ul.menu {
+	    flex-direction: column;
+	}
+	.logo {
+	    width: 145px !important;
+	    margin: auto;
+	    position: absolute;
+	    z-index: 1;
+	    top:0px;
+	    transform: translate(0px -47%);
+	    left:5px;
+	    bottom: 0;
+	}  
+    .menu-toggle ~ .ace-responsive-menu > li:first-child {
+	    border-top: 1px solid #fff;
+	}
+}
+
+/*Xtra Small Device*/
+@media(min-width:320px) and (max-width:480px){
+	:root {
+	  --font-size: 14px;
+	  --padding: 25px;
+	}
+	/*==================================
+		Slider-area 
+	 =================================*/
+	.banner-title {
+	    font-size: 27px;
+	}
+	/*==================================
+		service-area 
+	 =================================*/
+	.services-info p{
+		font-size: var(--font-size)
+	};
+	.services-content {
+		padding: var(--padding);
+	}
+	/*===============================
+		project area
+	 ================================*/
+	 section.proejects-area {
+	    padding: 70px 0px 0px;
+	}
+	.single-star {
+	    margin-bottom: 50px;
+	}
+	/*==================================
+		testimonial area
+	 =================================*/
+	.identfify-area .user-name h2 {
+	    font-size: 13px;
+	}
+	.identfify-area .title-name p, .review-info p {
+	    font-size: 13px;
+	}
+    .single-star  span i {
+	    font-size: 13px;
+	}
+	.identfify-area .user-img img {
+	    width: 70px;
+	    height: 70px;
+	}
+	/*==================================
+		portfolio area
+	=================================*/
+	.portfolio-area .filtering span {
+	    padding: 6px;
+	    font-size: 10px;
+    }
+    .contact-info-list address {
+	    font-size: 13px;
+	}
+	.overflow-info .icon a img {
+	    width: 24px;
+	}
+	.overflow-info .proejct-name h3 {
+	    font-size: 14px;
+	}
+	.overflow-info .icon {
+	    height: 45px;
+	    width: 45px;
+	    line-height: 45px;
+	}
+	.portfolio-iteam:hover .overflow-info .icon {
+	    bottom: 30%;
+	}
+	/*==================================
+		contact-us
+	=================================*/
+	.contact-us .row {
+	    flex-wrap: wrap-reverse;
+	}
+	section.contact-us:before {
+	    height: 37%;
+	    width: 100%;
+   }
+   section.contact-us:after {
+	    height:cale(100vh-37vh);
+	    width:100%;
+	}
+   .contact-form {
+    	margin-top: 50px;
+    	padding: 22px;
+   }
+   .contact-info {
+	    align-items: center;
+	}
+	/*===================================  
+		Mobile menu
+	 ==================================== */
+	.ace-responsive-menu {
+       background: #000;
+   }
+    .cx-menu nav ul.menu {
+	    flex-direction: column;
+	}
+	.logo {
+	    width: 120px !important;
+	    margin: auto;
+	    position: absolute;
+	    z-index: 1;
+	    top:0px;
+	    transform: translate(0px -47%);
+	    left:5px;
+	    bottom: 0;
+	} 
+    .menu-toggle ~ .ace-responsive-menu > li:first-child {
+	    border-top: 1px solid #fff;
+	}
+}
